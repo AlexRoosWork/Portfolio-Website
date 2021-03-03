@@ -147,10 +147,12 @@ Over the months, the deeper we got into it, the complexer the program got. Espec
 
 Along the way, we also did a [[https://ccs.getmonero.org/proposals/tipxmr.live.html][crowdfunding campaign]] and collected 72 XMR (about 13,5k EUR).
 
-Recently, we switched out the tech stack, as you can [[https://tipxmr.live/posts/changing-the-tech-stack/][read here]].
+Recently, we switched out the tech stack to include TypeScript, Redux, Ant Design and PostgreSQL, as you can [[https://tipxmr.live/posts/changing-the-tech-stack/][read here]].
+
+What truly astonishes me is the possibilites for modern web developer. While standing on the shoulders of giants, we can create innovative applications that empower users!
 
 *** This is what I want to do!
-My experience with TipXMR has shown me clearly: Coding is the profession for me. I especially enjoyed working in a team with more advanced developers. It is a stark contrast to my early days of a lone keyboard warrior and I noticed that I learn much faster, when I am thrown in the water.
+My experience with TipXMR has shown me clearly: *Coding is the profession for me*. I especially enjoyed working in a team with more advanced developers. It is a stark contrast to my early days of a lone keyboard warrior and I noticed that I learn much faster, when I am thrown in the water.
 
 I have learned so much about JavaScript, React, Hooks, Statemanagement, structuring data, interaction with databases and many other small things. Moreover, we also implemented a professional workflow with ~git~ and ~jira~ (canban style board). This way TipXMR is training me to be a good team developer, who is comfortable with version control.
 
@@ -387,12 +389,26 @@ Doom takes a central place in my personal setup now and I use it for all kinds o
 - [[https://www.emacswiki.org/emacs/DiredMode][dired]] to manage files
 - the different language modes as my IDE (mostly Python, JavaScript and HTML)
 
-** TODO Git
+** DONE Git
+:PROPERTIES:
 :EXPORT_FILE_NAME: git
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: opensource framework
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
 :END:
-** TODO Cryptocurrencies and Cryptography
+Git is just one of these tools, that I cannot believe I could live without.
+
+*** First steps
+I had my first experience with Git, when I partnered up with an acquaintance for a project. In the beginning it was somewhat new of course, but the benefits of using a version control system like git quickly dawned on me.
+
+My amazement was even greater, when I found out that Linus Torvalds was not only responsible for the [[GNU/Linux]] Kernel, but also for git. This discovery solidified once more my passion for FLOSS.
+*** The role git plays for me
+I understand, why git takes a central role in software projects. For me personally, the use-cases are vast. Not only do we use git to work on [[TipXMR]], but I also backup my dotfiles on it or to create a [[https://github.com/AlexRoosWork][project portfolio]].
+
+There is even a way to host this website with Hugo over Git!
+*** Magit
+Of course, [[Doom Emacs]] has to be mentioned once more. Within Emacs, the tool Magit provides powerful features to interact with repositories. It is also the tool I use to make changes to the [[https://github.com/AlexRoosWork/Portfolio-Website][repo of this very website]].
+** DONE Cryptocurrencies and Cryptography
 :PROPERTIES:
 :EXPORT_FILE_NAME: crypto
 :EXPORT_HUGO_SECTION: thoughts
@@ -412,25 +428,29 @@ While I certainly don't understand the cryptography itself, I can still utilise 
 
 *** Cryptocurrencies are the future
 My fascination with cryptocurrencies has not waned. I find it especially thrilling to create programs that interact with cryptocurrencies in some way, like [[MoneroBlocksBot]] or [[TipXMR]].
-** TODO HTML/CSS
+** DONE RaspberryPi and Networking
 :PROPERTIES:
-:EXPORT_FILE_NAME: html
+:EXPORT_FILE_NAME: RaspberryPi
 :EXPORT_HUGO_SECTION: thoughts
-:EXPORT_HUGO_TAGS: web framework
+:EXPORT_HUGO_TAGS: linux network docker
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
 :END:
-** TODO JavaScript and TypeScript
-:PROPERTIES:
-:EXPORT_FILE_NAME: javascript
-:EXPORT_HUGO_SECTION: thoughts
-:EXPORT_HUGO_TAGS: opensource javascript
-:END:
-** TODO Frameworks
-:PROPERTIES:
-:EXPORT_FILE_NAME: frameworks
-:EXPORT_HUGO_SECTION: thoughts
-:EXPORT_HUGO_TAGS: opensource framework
-:END:
-** TODO RaspberryPi, Server and Networking
+The first RaspberryPi I bought was for my own Bitcoin/Lightning-Network node ([[https://raspiblitz.org/][RaspiBlitz]]). Building this project was a great learning experience and it introduced me to the idea of self-hosted software services.
+*** Using the RaspberryPi
+One of the first real use-cases I found for a RaspberryPi was to host my Telegram Bots. Since they require the running computer to be always online. Therefore, my solution to hosting bots written in [[Python]] is to create a service on the Pi that executes the main script on start-up.
+
+Another great practice was just to ssh into the Pi and do work from within the terminal. I found out about ssh-keys that way!
+
+I also discovered, that [[Doom Emacs]] allows me to ssh connect over [[https://www.emacswiki.org/emacs/TrampMode][Tramp]] and edit remote files on my local machine with my local config.
+*** My own home server
+I have previously deployed my own [[https://nextcloud.com/][Nextcloud]] instance on a RaspberryPi, which taught me a lot about networking, port forwarding, SSL certificates and much more.
+
+Moreover, the Pi has opened the world of docker for me!
+
+Just as a side note: Nowadays I use a Pi as my home server and run [[https://syncthing.net/][SyncThing]] to keep all my ~.org~ files synced between my laptop and phone.
+
+It truly amazes me that this tech exists at such a low price point!
+
 * Pages
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
