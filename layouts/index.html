@@ -1,0 +1,48 @@
+
+{{ define "main" }}
+    <main aria-role="main">
+      <header class="homepage-header">
+      </header>
+      <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+          {{.Content}}
+      </div>
+      <!-- Custom content for landing page -->
+      <div>
+          <h1 style="line-height: 20%;">Alex Roos</h1>
+          <p>Aspiring Software Developer</p>
+          <div class="summary">
+              <div style="flex: 66.66%; padding-right: 45px;">
+                  <blockquote style="align-self: center; font-size: 130%;">I love writing code <br/> and solving challenges</blockquote>
+              </div>
+              <div style="flex: 33.33%; align-self: auto;">
+                 <img src="ox-hugo/portrait.jpg" id="portrait" style="min-width: 200px"> 
+              </div>
+          </div>
+          <div style="margin-top: 15px; margin-bottom: 45px;">
+              <div>
+              <h2>Find out more about me!</h2>
+              <ul>
+                  <li>I have listed multiple <a href="/projects">projects</a> on this site that I have worked on in the past. With each project you will find a small write up about my experience and learnings.</li>
+                  <hr>
+                  <li>
+                      Since my passion is computers and code, I have also written down some <a href="/thoughts">thoughts</a> about various topics. Here you will understand more about my motivation and personal development.
+                  </li>
+                  <hr>
+                  <li>Of course, my <a href="/pages/cv">CV</a> is also listed.</li>
+              </ul>
+              </div>
+              <div style="margin-top: 45px">
+              <h2>Reach out!</h2>
+              <p>I would love to hear from you! So just drop me an <a href="mailto:alex.roos@protonmail.com?subject=Let's work together">email</a> - I am looking forward to it.</p>
+              <div style="margin-left: auto; margin-right: auto; width: 15%">
+                  <a href="mailto:alex.roos@protonmail.com?subject=Let's work together">
+                  <img src="mail.png">
+                  </a>
+              </div>
+              </div>
+          </div>
+
+      </div>
+    </main>
+{{ end }}
