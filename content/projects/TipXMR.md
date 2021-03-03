@@ -22,11 +22,13 @@ Over the months, the deeper we got into it, the complexer the program got. Espec
 
 Along the way, we also did a [crowdfunding campaign](https://ccs.getmonero.org/proposals/tipxmr.live.html) and collected 72 XMR (about 13,5k EUR).
 
-Recently, we switched out the tech stack, as you can [read here](https://tipxmr.live/posts/changing-the-tech-stack/).
+Recently, we switched out the tech stack to include TypeScript, Redux, Ant Design and PostgreSQL, as you can [read here](https://tipxmr.live/posts/changing-the-tech-stack/).
+
+What truly astonishes me is the possibilites for modern web developer. While standing on the shoulders of giants, we can create innovative applications that empower users!
 
 ## This is what I want to do! {#this-is-what-i-want-to-do}
 
-My experience with TipXMR has shown me clearly: Coding is the profession for me. I especially enjoyed working in a team with more advanced developers. It is a stark contrast to my early days of a lone keyboard warrior and I noticed that I learn much faster, when I am thrown in the water.
+My experience with TipXMR has shown me clearly: **Coding is the profession for me**. I especially enjoyed working in a team with more advanced developers. It is a stark contrast to my early days of a lone keyboard warrior and I noticed that I learn much faster, when I am thrown in the water.
 
 I have learned so much about JavaScript, React, Hooks, Statemanagement, structuring data, interaction with databases and many other small things. Moreover, we also implemented a professional workflow with `git` and `jira` (canban style board). This way TipXMR is training me to be a good team developer, who is comfortable with version control.
 
