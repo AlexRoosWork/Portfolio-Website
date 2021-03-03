@@ -12,6 +12,10 @@ figure {
   flex-grow: 1;
 }
 
+.mail:hover {
+  transform: scale(110%);
+}
+
 @media screen and (max-width: 600px) {
   .summary {
     display: block;
