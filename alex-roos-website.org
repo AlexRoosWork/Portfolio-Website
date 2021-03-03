@@ -216,27 +216,35 @@ Anyway, I'm a big fan.
 :EXPORT_HUGO_PUBLISHDATE: 2021-03-01
 :END:
 *** My HelloWorld Experience
-Growing up, I have always been interested in computers. My passion was mostly playing computer games, and as long as everything was working, I did not look under the hood.
+Growing up, I have always been interested in computers. My passion was mostly playing computer games. But as long as everything was working, I did not look under the hood.
 *** Java
-When I was 13 or so, my father gave a "Java 6 for Dummies" book to me. I tried it, but the setup process of the IDE in Windows was too cumbersome for me and I gave up. The syntax was not looking welcoming either ("How do create these curly braces again?!").
-*** Ruby
-While doing an internship in 2016 at a Berlin start-up, I got fascinated by the idea of writing code again. This time I picked up Ruby on Rails and went through an online course by [[https://teamtreehouse.com/][TeamTreehouse]]. Ruby showed me that the syntax did not have to complex, but I was lacking a usecase to practise.
-Also, my general knowledge of computers was lacking and doing everything around the actual code writing threw me off again.
-*** Python
-During my time as a journalist at [[https://www.btc-echo.de/author/alexander-roos/][BTC-ECHO]] in 2018, I was learning a lot about cryptocurrencies and the tech space in general. The idea started to grow, that instead of simply sitting on the sidelines and reporting on the developments, I could be a part of the community of people "actually doing something".
-This time I did some research first: What languages are in demand? What's a good computer language to start with? The answer was [[Python]].
-*** Getting comfortable with computers
-So I took the #learn2code hashtag to heart and started teaching myself to code.
+When I was 13 or so, my father gave a "Java 6 for Dummies" book to me. I tried the "Hello World", but just the setup process of the IDE in Windows was too cumbersome for me. The syntax was not looking welcoming either (/"How do create these curly braces again?!"/).
 
-Soon after, towards the end of 2019, I ditched my MacBook Pro for a [[GNU/Linux]] machine. Gradually, I familiarised myself with the UNIX system and philosophy.
+So, I gave up and did not pursue Java further.
+*** Ruby
+While doing an internship in 2016 at a Berlin start-up, I got fascinated by the idea of writing code again.
+
+This time I picked up Ruby on Rails and went through an online course by [[https://teamtreehouse.com/][TeamTreehouse]]. Ruby showed me that the syntax did not have to complex, but I was lacking a usecase to practise.
+
+Also, my general knowledge of computers was lacking and doing everything around the actual code writing threw me off once more.
+*** Python
+During my time as a journalist at [[https://www.btc-echo.de/author/alexander-roos/][BTC-ECHO]] in 2018, I was learning a lot about [[Cryptocurrencies and Cryptography]]. The tech space simply fascinated me. The idea started to grow, that instead of simply sitting on the sidelines and reporting on the developments, I could be a part of the community of people "actually doing something".
+
+It should also be mentioned that around the same time, the hashtag ~#learn2code~ was going around on Twitter. And yes, it all made sense: Technology is the future, and I should be able to actually use it.
+
+But this time I did some research first: What languages are in demand? What's a good computer language to start with? The answer for me was [[Python]].
+*** Getting comfortable with computers
+So I took the #learn2code hashtag to heart and started teaching myself to code in summer of 2019. By then I knew much more about computers and quickly found myself enjoying the learning process.
+
+Soon after - towards the end of 2019 - I ditched my MacBook Pro for a [[GNU/Linux]] machine. Gradually, I familiarised myself with the UNIX system and philosophy.
 
 A big step was working through the book "[[https://automatetheboringstuff.com/][Automate the Boring Stuff]]", since it provided an immediate use-case for my everyday life.
 
 file:~/Coding/alex-roos/static/automate.jpg
-
 *** What has kept me going
-As any beginning programmer may attest to: there are moments, where the program just won't work. Hours upon hours are spent looking through StackOverflow, until suddenly: it works.
-This feeling of overcoming the struggle, and making something work has kept me hooked on writing code.
+As any programmer may attest to: there are moments, where the program just won't work. Hours upon hours are spent looking through StackOverflow, until suddenly: *it works*. This feeling of overcoming the struggle, and making something work has kept me hooked on writing code.
+
+Another big plus is the utility, which can be created. It's not only fun coding, you actually get something back from it.
 ** DONE Python
 :PROPERTIES:
 :EXPORT_FILE_NAME: python
@@ -247,26 +255,78 @@ This feeling of overcoming the struggle, and making something work has kept me h
 *** Falling in love with programming
 Python was the first computer language that I studied seriously. Over time I have fallen in love with the Zen of Python and learned a lot about broader principles of coding.
 
-As I mentioned in [[.#learn2code]], Python provides me actual utility. Early on I wrote a program to track my hours invested in learning the language. Another one scraped a lyrics website and copied the lyrics into my iTunes library.
+#+begin_src
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+#+end_src
+
+As I mentioned in [[.#learn2code]], Python provides me actual utility. Early on I wrote a program to track my hours invested in learning the language. By now my window manger is configured with Python and I have many scripts to automate boring stuff.
 *** Learning to use framworks and read documentation
-Since the syntax of Python is fairly easy, I was able to focus on related skills. For instance I worked on a site with Django. In another project I used Flask and was able to contrast the differences  and similarities.
+Since the syntax of Python is fairly easy, I was able to focus on the important skills. Using any framework or module requires reading and _understanding_ the documentation. This is a skill that I have developed greatly over the almost 2 years of teaching myself to code. Another is - of course - to use a search engine.
 
-Using any framework or module for that matter, requires reading and _understanding_ the documentation. This is a skill that I have developed greatly over the almost 2 years of teaching myself to code.
-
-With the many modules Python has to offer, I was able to boost my own skills and developed several Telegram bots. My proudest achievement in this regard would be a bot, that allows group users to up- and downvote the messages of other group members. Read more about it here. {ENTER LINK}
+With the many modules Python has to offer, I was able to boost my own skills and developed several Telegram bots. My proudest achievement in this regard would be the [[ReputationBot]].
 *** Customizing my desktop using Python :ATTACH:
 :PROPERTIES:
 :ID:       a9c8f134-9b60-4baa-b106-ed7b28882d4e
 :END:
-Nowadays, Python is my most comfortable language. Its functionality even comes into use on my own desktop. On my journey with tiling window managers, and after much frustration with [[https://i3wm.org/][i3]] and [[https://awesomewm.org/][awesome]], I discovered [[http://www.qtile.org/][qtile]].
+Nowadays, Python is my most comfortable language. As I mentioned, its functionality even comes into use on my own desktop. On my journey with tiling window managers, and after much frustration with [[https://i3wm.org/][i3]] and [[https://awesomewm.org/][awesome]], I discovered [[http://www.qtile.org/][qtile]].
 
-It is written in Python, and the configuration is also a ~.py~ file. This means that I can write my own functions to feed the top bar widgets.
+Since qtile is written in Python the configuration is also a ~.py~ file. This means that I can write my own functions to feed the top bar widgets.
 
 
-> A screenshot of my top bar
 [[file:~/Coding/alex-roos/static/ox-hugo/topbar-qtile.png]]
 
-For instance, the price of Monero and Bitcoin are API calls to [[https://api.coinpaprika.com/#operation/getTickers][Coinpaprika]]. They refresh every 60 seconds.
+For instance, the price of Monero and Bitcoin widgets I made myself. They are simply API calls to [[https://api.coinpaprika.com/#operation/getTickers][Coinpaprika]] packaged in a qtile widget.
+
+#+begin_src python
+def get_cryptoprice(tickerid):
+    """Query coinpaprika API for USD price. Return price as int."""
+    url = "https://api.coinpaprika.com/v1/tickers/" + tickerid
+    try:
+        resp = requests.get(url)
+    except:
+        resp = '{"quotes": {"USD": {"price": "loading"}}}'
+
+    data = json.loads(resp.content)
+    price = round(data["quotes"]["USD"]["price"])
+    return price
+
+
+def get_xmr_price():
+    price = get_cryptoprice("xmr-monero")
+    return f'{price}{fa.icons["dollar-sign"]}'
+
+
+def get_btc_price():
+    price = get_cryptoprice("btc-bitcoin")
+    return f'{price}{fa.icons["dollar-sign"]}'
+
+
+def get_xmr_btc():
+    """Calculate xmr/btc via usd price of both"""
+    ratio = round(get_cryptoprice("xmr-monero") / get_cryptoprice("btc-bitcoin"), 4)
+    output = f"({str(ratio)} btc)"
+    return output
+#+end_src
 
 This is just one example of the many benefits, I draw from Python in my own environment.
 ** DONE GNU/Linux
@@ -277,19 +337,19 @@ This is just one example of the many benefits, I draw from Python in my own envi
 :EXPORT_HUGO_PUBLISHDATE: 2021-03-02
 :END:
 *** First contact with Linux
-During my teens, before my advances with computers, I once wanted to install Linux on my Windows Gaming machine. A friend of my father was a Linux user and had given me an installation CD. But since Linux did not suppport many of the games I wanted to play, I saw no point in using it.
+In my teens I once wanted to install Linux on my Windows Gaming machine. A friend of my father was a Linux user and had given me an installation CD. I installed it and found myself disappointed: The gaming support was very poor and since that was all I was interested in, I saw no point in using it.
 
 *** Rediscovering GNU/Linux
-Driven by a desire to use open source software, I got interested in Linux around 2019 again. After testing it for a while on an older computer, I finally made the switch and got myself a [[https://www.tuxedocomputers.com/][Tuxedo Computer]].
+But in 2019, driven by a desire to use open source software, I got interested in Linux again. After testing it for a while on an older computer, I finally made the switch and got myself a [[https://www.tuxedocomputers.com/][Tuxedo Computer]].
 
-It was obvious that the operating systems had come a long way since my earlier experience. For instance, Steam in combination with [[https://www.protondb.com/][Proton]] allowed for many games to be played on Linux now.
+It was obvious that the operating system and distributions had come a long way since my earlier experience. For instance, nowadays Steam in combination with [[https://www.protondb.com/][Proton]] allows for many games to be played on Linux.
 
-For some time I used the pre-installed TuxedoOS, but then curiousity got me.
+For some time I used the pre-installed TuxedoOS distribution, but then curiousity got me.
 *** Distro hopping and landing on Manjaro :ATTACH:
 :PROPERTIES:
 :ID:       52f7251e-3136-423b-ba81-d10c37082377
 :END:
-I tried Mint, Kubuntu, and eventually made my way to the Arch-based Manjaro. My journey taught me a lot about computers, like "What is a kernel?" or "What is a package manager?".
+I installed and tried various flavors, like Mint and Kubuntu, but eventually made my way to the Arch-based Manjaro. My journey taught me a lot about computers, like "What is a kernel?" or "What is a package manager?".
 
 At the time of writing, I use [[https://manjaro.org/][Manjaro]] with a combination of KDE as the desktop manager and qtile as a window manager.
 
@@ -300,6 +360,10 @@ What I absolutely love about my setup is that I can customize it however I want.
 
 Linux offers many advantages and once one becomes familiar with them, they can be leveraged to great effect. For example, I have all my ~dotfiles~ (configs for ~rofi~, ~qtile~, ~zsh~, ~doom~) in one repository with systemlinks to their appropriate config folders. This way I have a central point for my system config, can easily back it up and deploy it on other machines. Powered by open source tools.
 
+*** "Why, yes, of course I FLOSS"
+Over time I have developed a burning fashion for Free and Open Source Software (FLOSS). Often times it means going out of my way to get something to work. But, in the end I have a deeper understanding of the stuff I'm using and hold the reigns myself.
+
+I truly believe that FLOSS can lead to a more free and just world.
 ** DONE Doom Emacs
 :PROPERTIES:
 :EXPORT_FILE_NAME: doom
@@ -308,7 +372,7 @@ Linux offers many advantages and once one becomes familiar with them, they can b
 :EXPORT_HUGO_PUBLISHDATE: 2021-03-02
 :END:
 *** IDEs I have used
-When I started with [[Python]] my first IDE was [[https://www.jetbrains.com/pycharm/][PyCharm]]. In contrast to the clunky Java IDE I had tried to install in my earlier life, PyCharm was easy to use and looked good, too!
+When I started to code with [[Python]], my first IDE was [[https://www.jetbrains.com/pycharm/][PyCharm]]. In contrast to the clunky Java IDE I had tried to install early on when I tried to [[.#learn2code]], PyCharm was easy to use and looked good, too!
 
 Nevertheless, I then switched to [[https://vscodium.com/][VSCodium]] (basically VSCode, minus the telemetry), because of recommendations from friends.
 *** Doom
@@ -316,14 +380,13 @@ But then, in March of 2020, I was recommended [[https://github.com/hlissner/doom
 
 file:~/Coding/alex-roos/static/ox-hugo/doom.png
 
-Now Doom takes a central place in my personal setup and I use it for all kinds of purposes:
+Doom takes a central place in my personal setup now and I use it for all kinds of purposes:
 - [[https://orgmode.org/][org-mode]] to organise thoughts and write blogs such as this.
 - [[https://www.emacswiki.org/emacs/TrampMode][tramp]] to ssh into remote machines and edit files within Doom.
 - [[https://www.emacswiki.org/emacs/Magit][magit]] to interact with git repos
 - [[https://www.emacswiki.org/emacs/DiredMode][dired]] to manage files
 - the different language modes as my IDE (mostly Python, JavaScript and HTML)
 
-The whole learning process has broadened my understanding of computers and tangental topics (such as ssh or git).
 ** TODO Git
 :EXPORT_FILE_NAME: git
 :EXPORT_HUGO_SECTION: thoughts
@@ -334,7 +397,21 @@ The whole learning process has broadened my understanding of computers and tange
 :EXPORT_FILE_NAME: crypto
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: opensource crypto
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
 :END:
+*** Falling down the Bitcoin rabbit hole
+The end of my studies in /"Management, Philosophy & Economics"/ coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about "Blockchain Technology". After finishing my studies, I started at BTC-ECHO to write about developments in the space.
+
+Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking. Gradually my interested shifted from the economic implications to the actual technology itself.
+
+To understand Bitcoin, I needed to know what a hash is, how a blockchain uses these hashes for a Proof-of-Work and so on. This is what basically got me interested in computer sciences again.
+*** Cryptography is all around us
+The aquired knowledge proofs useful to this day. I was amazed to learn that asymmetric cryptography is all around us, from the websites to the messengers. Everything that needs security, benefits from public key cryptography.
+
+While I certainly don't understand the cryptography itself, I can still utilise it. Just imagine my amazement, when I figured out how to use the ~.ssh/~ to automatically - and more securely - establish a contection to remote machines.
+
+*** Cryptocurrencies are the future
+My fascination with cryptocurrencies has not waned. I find it especially thrilling to create programs that interact with cryptocurrencies in some way, like [[MoneroBlocksBot]] or [[TipXMR]].
 ** TODO HTML/CSS
 :PROPERTIES:
 :EXPORT_FILE_NAME: html
