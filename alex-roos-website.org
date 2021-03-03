@@ -155,7 +155,55 @@ My experience with TipXMR has shown me clearly: Coding is the profession for me.
 I have learned so much about JavaScript, React, Hooks, Statemanagement, structuring data, interaction with databases and many other small things. Moreover, we also implemented a professional workflow with ~git~ and ~jira~ (canban style board). This way TipXMR is training me to be a good team developer, who is comfortable with version control.
 
 TipXMR is still not finished, but we aim to complete it within 2021.
+** DONE My Portfolio Website
+:PROPERTIES:
+:EXPORT_FILE_NAME: Portfolio
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_TAGS: emacs web
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
+:END:
+> [[https://github.com/AlexRoosWork/Portfolio-Website][Check this website out on GitHub!]]
 
+*** Working with Hugo through Doom Emacs and org-mode
+A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.
+
+Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this.
+
+Moreover, I am able to leverage other tools from my tech stack, namely [[Doom Emacs]] and [[https://orgmode.org/][org-mode]]. For those that don't know, org-mode is basically another markdown format. However, it is very feature rich. For instance, I can create codeblocks in any language and execute them within the file. Like this:
+
+#+begin_src sh
+ls
+#+end_src
+
+#+begin_src
+#+RESULTS:
+| alex-roos-website.org |
+| archetypes            |
+| config.toml           |
+| content               |
+| data                  |
+| layouts               |
+| readme.org            |
+| resources             |
+| static                |
+| themes                |
+#+end_src
+
+Amazing, isn't it? I am getting carried away!
+
+The package [[https://ox-hugo.scripter.co/][ox-hugo]] allows me to export my single ~.org~ file to Hugo, along with images, formatting etc. It creates markdown files in the appropriate directories for Hugo to reach.
+*** Making changes to the default settings
+The ~alex-roos-website.org~ file provides basically all the content on the website, such as this article. But for the landing page, I have actually created a custom ~layouts/index.html~.
+
+Since the site is fairly light-weight I wrote some CSS inline. I know this is not something to do, but for my purposes here, it did the trick.
+
+Nevertheless, I still need a custom ~/static/style.css~ sheet, to add a breakpoint on my portrait for small devices and to center the images in articles.
+*** Updating the website
+To update the website I use the ~SPC m e H A~ key chord in org-mode. This exports my file directly to my VPS. From there I simply ~ssh~ into the VPS, ~rm -rf public/~ and ~hugo~ to generate the new site based on the new markdown files. ~hugo~ generates the ~public/~ folder that [[https://nginx.org/en/][NGINX]] routes any requests to.
+
+This ox-hugo export means I do not have to worry about image files being in the wrong location. It also generates the folder structure to bundle articles like [[Thoughts]] and [[Projects]].
+
+Anyway, I'm a big fan.
 * Thoughts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: thoughts
