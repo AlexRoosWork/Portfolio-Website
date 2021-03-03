@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Alex Roos</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Portfolio Website</title>
+      <link>/projects/portfolio/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/portfolio/</guid>
+      <description>Check this website out on GitHub!
+ Working with Hugo through Doom Emacs and org-mode A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.
+Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this.</description>
+    </item>
+    
+    <item>
+      <title>BeInCrypto Educational Telegram Bot</title>
+      <link>/projects/beincrypto/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/beincrypto/</guid>
+      <description>Check the code out on GitHub!
+ Using programming skills for real world value In the summer of 2020 I was working as an editor in chief for the German section of BeInCrypto. While the work as a journalist and editor was certainly interesting and rewarding, by that time the passion to code had me already. So I wanted to program something that would be useful to the business.</description>
+    </item>
+    
+    <item>
+      <title>LevelUp - Tracking progress</title>
+      <link>/projects/levelup/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/levelup/</guid>
+      <description>Check the code out on GitHub!
+ My first real programm When I worked through &amp;ldquo;Automate the Boring Stuff&amp;rdquo;, I wanted to keep track of my time invested in learning Python. So the idea for a timetracker with a command line interface was born.
+It was a great exercise, because my knowledge on the first version was very limited. I did not use a database, but instead an Excel-Sheet, where I would automate the input into the cells, and read the cells to calculate my total time invested.</description>
+    </item>
+    
+    <item>
+      <title>MoneroBlocksBot</title>
+      <link>/projects/moneroblocksbot/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/moneroblocksbot/</guid>
+      <description>Check the code out on GitHub!
+ Playing with APIs The purpose of this bot was for me to practice using public APIs. Allthewhile I also wanted to provide some value to Monero ethusiasts on Telegram.
+For this I used API provided by MoneroBlocks.info (nowadays LocalMonero.co). With the right parameters in the URL you get a json object with the appropriate information (i.e. Block Height, TXs in the last Block etc.</description>
+    </item>
+    
+    <item>
+      <title>PythonScripts - Automate the boring stuff</title>
+      <link>/projects/pythonscripts/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/pythonscripts/</guid>
+      <description>Check the code out on GitHub!
+ Here I have 3 different Python scripts that automate certain aspects of my workflows.
+delete_txts.py When I coded my first lyrics grabber for iTunes, I had saved the lyrics for all songs in the album direcotry as a .txt.
+This was not necessary, but it didn&amp;rsquo;t bother me much at first. However, since my library contains around 7.000 songs, I also had 7.</description>
+    </item>
+    
+    <item>
+      <title>ReputationBot</title>
+      <link>/projects/reputationbot/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/reputationbot/</guid>
+      <description>Check the code out on GitHub!
+ My first real telegram bot Since I was an admin in a particular Telegram group, I wanted to use my programming knowledge to expand the utility of my group. Soon after, the idea for a Reddit-style voting bot for messages was born.
+Basically, users have voting power that gets reset every 24 hours. Up- or downvoting consumes voting power. Users collect repuation over time and can &amp;ldquo;win the week&amp;rdquo;, meaning that they are the user with the most upvotes in a given week.</description>
+    </item>
+    
+    <item>
+      <title>TipXMR</title>
+      <link>/projects/tipxmr/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/tipxmr/</guid>
+      <description>Check the project out on GitHub!
+ TipXMR is by far the biggest and most complex project I have worked on so far. It all started small, in September of 2020 with the idea to support Monero donations in livestreams.
+  Monero is the biggest privacy focused cryptocurrency in the world and a favorite of mine. The goal was to empower streamers to be less dependant on centralized services like YouTube or Twitch and to expand the use-case for Monero.</description>
+    </item>
+    
+  </channel>
+</rss>

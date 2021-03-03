@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on Alex Roos</title>
+    <link>/tags/sql/</link>
+    <description>Recent content in sql on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LevelUp - Tracking progress</title>
+      <link>/projects/levelup/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/levelup/</guid>
+      <description>Check the code out on GitHub!
+ My first real programm When I worked through &amp;ldquo;Automate the Boring Stuff&amp;rdquo;, I wanted to keep track of my time invested in learning Python. So the idea for a timetracker with a command line interface was born.
+It was a great exercise, because my knowledge on the first version was very limited. I did not use a database, but instead an Excel-Sheet, where I would automate the input into the cells, and read the cells to calculate my total time invested.</description>
+    </item>
+    
+    <item>
+      <title>ReputationBot</title>
+      <link>/projects/reputationbot/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/reputationbot/</guid>
+      <description>Check the code out on GitHub!
+ My first real telegram bot Since I was an admin in a particular Telegram group, I wanted to use my programming knowledge to expand the utility of my group. Soon after, the idea for a Reddit-style voting bot for messages was born.
+Basically, users have voting power that gets reset every 24 hours. Up- or downvoting consumes voting power. Users collect repuation over time and can &amp;ldquo;win the week&amp;rdquo;, meaning that they are the user with the most upvotes in a given week.</description>
+    </item>
+    
+  </channel>
+</rss>

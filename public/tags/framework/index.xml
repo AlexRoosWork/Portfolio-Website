@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>framework on Alex Roos</title>
+    <link>/tags/framework/</link>
+    <description>Recent content in framework on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>/thoughts/git/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/git/</guid>
+      <description>Git is just one of these tools, that I cannot believe I could live without.
+First steps I had my first experience with Git, when I partnered up with an acquaintance for a project. In the beginning it was somewhat new of course, but the benefits of using a version control system like git quickly dawned on me.
+My amazement was even greater, when I found out that Linus Torvalds was not only responsible for the GNU/Linux Kernel, but also for git.</description>
+    </item>
+    
+  </channel>
+</rss>

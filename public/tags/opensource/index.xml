@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opensource on Alex Roos</title>
+    <link>/tags/opensource/</link>
+    <description>Recent content in opensource on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptocurrencies and Cryptography</title>
+      <link>/thoughts/crypto/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/crypto/</guid>
+      <description>Falling down the Bitcoin rabbit hole The end of my studies in &amp;ldquo;Management, Philosophy &amp;amp; Economics&amp;rdquo; coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about &amp;ldquo;Blockchain Technology&amp;rdquo;. After finishing my studies, I started at BTC-ECHO to write about developments in the space.
+Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/thoughts/git/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/git/</guid>
+      <description>Git is just one of these tools, that I cannot believe I could live without.
+First steps I had my first experience with Git, when I partnered up with an acquaintance for a project. In the beginning it was somewhat new of course, but the benefits of using a version control system like git quickly dawned on me.
+My amazement was even greater, when I found out that Linus Torvalds was not only responsible for the GNU/Linux Kernel, but also for git.</description>
+    </item>
+    
+    <item>
+      <title>Doom Emacs</title>
+      <link>/thoughts/doom/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/doom/</guid>
+      <description>IDEs I have used When I started to code with Python, my first IDE was PyCharm. In contrast to the clunky Java IDE I had tried to install early on when I tried to .#learn2code, PyCharm was easy to use and looked good, too!
+Nevertheless, I then switched to VSCodium (basically VSCode, minus the telemetry), because of recommendations from friends.
+Doom But then, in March of 2020, I was recommended Doom Emacs.</description>
+    </item>
+    
+    <item>
+      <title>GNU/Linux</title>
+      <link>/thoughts/linux/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/linux/</guid>
+      <description>First contact with Linux In my teens I once wanted to install Linux on my Windows Gaming machine. A friend of my father was a Linux user and had given me an installation CD. I installed it and found myself disappointed: The gaming support was very poor and since that was all I was interested in, I saw no point in using it.
+Rediscovering GNU/Linux But in 2019, driven by a desire to use open source software, I got interested in Linux again.</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/thoughts/python/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/python/</guid>
+      <description>Falling in love with programming Python was the first computer language that I studied seriously. Over time I have fallen in love with the Zen of Python and learned a lot about broader principles of coding.
+The Zen of Python, by Tim Peters Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense.</description>
+    </item>
+    
+  </channel>
+</rss>

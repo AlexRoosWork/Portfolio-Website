@@ -1,0 +1,26 @@
+.summary {
+  display: flex;
+}
+
+figure {
+  display: flex;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.mail:hover {
+  transform: scale(110%);
+}
+
+@media screen and (max-width: 600px) {
+  .summary {
+    display: block;
+  }
+  #portrait {
+    padding: 0 20;
+  }
+}

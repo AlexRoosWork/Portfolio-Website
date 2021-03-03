@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>My Portfolio Website :: Alex Roos</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Check this website out on GitHub!
+ Working with Hugo through Doom Emacs and org-mode A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.
+Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/projects/portfolio/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/green.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="[Alex Roos]" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="My Portfolio Website">
+<meta property="og:description" content="Check this website out on GitHub!
+ Working with Hugo through Doom Emacs and org-mode A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.
+Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this." />
+<meta property="og:url" content="/projects/portfolio/" />
+<meta property="og:site_name" content="Alex Roos" />
+
+  
+    <meta property="og:image" content="/favicon.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-03-03 00:00:00 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Alex Roos
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="/thoughts">Thoughts</a></li>
+        
+      
+        
+          <li><a href="/pages/cv">CV</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="/thoughts">Thoughts</a></li>
+      
+    
+      
+        <li><a href="/pages/cv">CV</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/projects/portfolio/">My Portfolio Website</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-03-03 
+      </span>
+    
+    
+    <span class="post-author">:: [Alex Roos]</span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/emacs/">emacs</a>&nbsp;
+    
+    #<a href="/tags/web/">web</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <blockquote>
+<p><a href="https://github.com/AlexRoosWork/Portfolio-Website">Check this website out on GitHub!</a></p>
+</blockquote>
+<h2 id="working-with-hugo-through-doom-emacs-and-org-mode">Working with Hugo through Doom Emacs and org-mode<a href="#working-with-hugo-through-doom-emacs-and-org-mode" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.</p>
+<p>Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this.</p>
+<p>Moreover, I am able to leverage other tools from my tech stack, namely <a href="/thoughts/doom/">Doom Emacs</a> and <a href="https://orgmode.org/">org-mode</a>. For those that don&rsquo;t know, org-mode is basically another markdown format. However, it is very feature rich. For instance, I can create codeblocks in any language and execute them within the file. Like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ls
+</code></pre></div><pre><code class="language-nil" data-lang="nil">#+RESULTS:
+| alex-roos-website.org |
+| archetypes            |
+| config.toml           |
+| content               |
+| data                  |
+| layouts               |
+| readme.org            |
+| resources             |
+| static                |
+| themes                |
+</code></pre><p>Amazing, isn&rsquo;t it? I am getting carried away!</p>
+<p>The package <a href="https://ox-hugo.scripter.co/">ox-hugo</a> allows me to export my single <code>.org</code> file to Hugo, along with images, formatting etc. It creates markdown files in the appropriate directories for Hugo to reach.</p>
+<h2 id="making-changes-to-the-default-settings">Making changes to the default settings<a href="#making-changes-to-the-default-settings" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The <code>alex-roos-website.org</code> file provides basically all the content on the website, such as this article. But for the landing page, I have actually created a custom <code>layouts/index.html</code>.</p>
+<p>Since the site is fairly light-weight I wrote some CSS inline. I know this is not something to do, but for my purposes here, it did the trick.</p>
+<p>Nevertheless, I still need a custom <code>/static/style.css</code> sheet, to add a breakpoint on my portrait for small devices and to center the images in articles.</p>
+<h2 id="updating-the-website">Updating the website<a href="#updating-the-website" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>To update the website I use the <code>SPC m e H A</code> key chord in org-mode. This exports my file directly to my VPS. From there I simply <code>ssh</code> into the VPS, <code>rm -rf public/</code> and <code>hugo</code> to generate the new site based on the new markdown files. <code>hugo</code> generates the <code>public/</code> folder that <a href="https://nginx.org/en/">NGINX</a> routes any requests to.</p>
+<p>This ox-hugo export means I do not have to worry about image files being in the wrong location. It also generates the folder structure to bundle articles like <a href="thoughts/.org">Thoughts</a> and <a href="projects/.org">Projects</a>.</p>
+<p>Anyway, I&rsquo;m a big fan.</p>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="/projects/beincrypto/">
+                <span class="button__text">BeInCrypto Educational Telegram Bot</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner" style="width:auto; text-align: center">
+    
+      <div class="copyright" style="display: block; margin-right: auto; margin-left: auto; padding-right:0;">
+          <span style="font-size: 80%">© 2021 Made with <a href="http://gohugo.io">Hugo</a>, <a href="https://github.com/panr/hugo-theme-terminal/">Terminal</a> & ❤</span>
+    
+        <div style="display: block">
+          <p style="font-size: 85%">
+              <a href="mailto:alex.roos@protonmail.com?subject=Let's connect!">Contact me</a>
+          </p>
+        </div>
+
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

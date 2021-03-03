@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on Alex Roos</title>
+    <link>/tags/typescript/</link>
+    <description>Recent content in typescript on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TipXMR</title>
+      <link>/projects/tipxmr/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/tipxmr/</guid>
+      <description>Check the project out on GitHub!
+ TipXMR is by far the biggest and most complex project I have worked on so far. It all started small, in September of 2020 with the idea to support Monero donations in livestreams.
+  Monero is the biggest privacy focused cryptocurrency in the world and a favorite of mine. The goal was to empower streamers to be less dependant on centralized services like YouTube or Twitch and to expand the use-case for Monero.</description>
+    </item>
+    
+  </channel>
+</rss>

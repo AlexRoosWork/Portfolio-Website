@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs on Alex Roos</title>
+    <link>/tags/emacs/</link>
+    <description>Recent content in emacs on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Portfolio Website</title>
+      <link>/projects/portfolio/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/portfolio/</guid>
+      <description>Check this website out on GitHub!
+ Working with Hugo through Doom Emacs and org-mode A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.
+Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this.</description>
+    </item>
+    
+    <item>
+      <title>Doom Emacs</title>
+      <link>/thoughts/doom/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/doom/</guid>
+      <description>IDEs I have used When I started to code with Python, my first IDE was PyCharm. In contrast to the clunky Java IDE I had tried to install early on when I tried to .#learn2code, PyCharm was easy to use and looked good, too!
+Nevertheless, I then switched to VSCodium (basically VSCode, minus the telemetry), because of recommendations from friends.
+Doom But then, in March of 2020, I was recommended Doom Emacs.</description>
+    </item>
+    
+  </channel>
+</rss>

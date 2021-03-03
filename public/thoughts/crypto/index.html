@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Cryptocurrencies and Cryptography :: Alex Roos</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Falling down the Bitcoin rabbit hole The end of my studies in &amp;ldquo;Management, Philosophy &amp;amp; Economics&amp;rdquo; coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about &amp;ldquo;Blockchain Technology&amp;rdquo;. After finishing my studies, I started at BTC-ECHO to write about developments in the space.
+Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/thoughts/crypto/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/green.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="[Alex Roos]" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cryptocurrencies and Cryptography">
+<meta property="og:description" content="Falling down the Bitcoin rabbit hole The end of my studies in &amp;ldquo;Management, Philosophy &amp;amp; Economics&amp;rdquo; coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about &amp;ldquo;Blockchain Technology&amp;rdquo;. After finishing my studies, I started at BTC-ECHO to write about developments in the space.
+Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking." />
+<meta property="og:url" content="/thoughts/crypto/" />
+<meta property="og:site_name" content="Alex Roos" />
+
+  
+    <meta property="og:image" content="/favicon.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-03-03 00:00:00 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Alex Roos
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="/thoughts">Thoughts</a></li>
+        
+      
+        
+          <li><a href="/pages/cv">CV</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="/thoughts">Thoughts</a></li>
+      
+    
+      
+        <li><a href="/pages/cv">CV</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/thoughts/crypto/">Cryptocurrencies and Cryptography</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-03-03 
+      </span>
+    
+    
+    <span class="post-author">:: [Alex Roos]</span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/opensource/">opensource</a>&nbsp;
+    
+    #<a href="/tags/crypto/">crypto</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="falling-down-the-bitcoin-rabbit-hole">Falling down the Bitcoin rabbit hole<a href="#falling-down-the-bitcoin-rabbit-hole" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The end of my studies in <em>&ldquo;Management, Philosophy &amp; Economics&rdquo;</em> coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about &ldquo;Blockchain Technology&rdquo;. After finishing my studies, I started at BTC-ECHO to write about developments in the space.</p>
+<p>Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking. Gradually my interested shifted from the economic implications to the actual technology itself.</p>
+<p>To understand Bitcoin, I needed to know what a hash is, how a blockchain uses these hashes for a Proof-of-Work and so on. This is what basically got me interested in computer sciences again.</p>
+<h2 id="cryptography-is-all-around-us">Cryptography is all around us<a href="#cryptography-is-all-around-us" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The aquired knowledge proofs useful to this day. I was amazed to learn that asymmetric cryptography is all around us, from the websites to the messengers. Everything that needs security, benefits from public key cryptography.</p>
+<p>While I certainly don&rsquo;t understand the cryptography itself, I can still utilise it. Just imagine my amazement, when I figured out how to use the <code>.ssh/</code> to automatically - and more securely - establish a contection to remote machines.</p>
+<h2 id="cryptocurrencies-are-the-future">Cryptocurrencies are the future<a href="#cryptocurrencies-are-the-future" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>My fascination with cryptocurrencies has not waned. I find it especially thrilling to create programs that interact with cryptocurrencies in some way, like <a href="/projects/moneroblocksbot/">MoneroBlocksBot</a> or <a href="/projects/tipxmr/">TipXMR</a>.</p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner" style="width:auto; text-align: center">
+    
+      <div class="copyright" style="display: block; margin-right: auto; margin-left: auto; padding-right:0;">
+          <span style="font-size: 80%">© 2021 Made with <a href="http://gohugo.io">Hugo</a>, <a href="https://github.com/panr/hugo-theme-terminal/">Terminal</a> & ❤</span>
+    
+        <div style="display: block">
+          <p style="font-size: 85%">
+              <a href="mailto:alex.roos@protonmail.com?subject=Let's connect!">Contact me</a>
+          </p>
+        </div>
+
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

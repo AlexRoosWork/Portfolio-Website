@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Alex Roos</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in docker on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RaspberryPi and Networking</title>
+      <link>/thoughts/raspberrypi/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/raspberrypi/</guid>
+      <description>The first RaspberryPi I bought was for my own Bitcoin/Lightning-Network node (RaspiBlitz). Building this project was a great learning experience and it introduced me to the idea of self-hosted software services.
+Using the RaspberryPi One of the first real use-cases I found for a RaspberryPi was to host my Telegram Bots. Since they require the running computer to be always online. Therefore, my solution to hosting bots written in Python is to create a service on the Pi that executes the main script on start-up.</description>
+    </item>
+    
+  </channel>
+</rss>

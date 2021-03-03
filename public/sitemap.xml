@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/pages/about/</loc>
+    <lastmod>2021-03-02T19:45:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/crypto/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/crypto/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/emacs/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/framework/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/git/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/portfolio/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/network/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opensource/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/raspberrypi/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2021-03-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <lastmod>2021-03-02T19:45:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/doom/</loc>
+    <lastmod>2021-03-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/linux/</loc>
+    <lastmod>2021-03-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/learn2code/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/beincrypto/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/levelup/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/moneroblocksbot/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thoughts/python/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/pythonscripts/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/react/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/reputationbot/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sqlalchemy/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/telegram/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/tipxmr/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/typescript/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/attach/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+</urlset>

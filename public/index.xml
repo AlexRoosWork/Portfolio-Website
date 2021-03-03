@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex Roos</title>
+    <link>/</link>
+    <description>Recent content on Alex Roos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/pages/about/</link>
+      <pubDate>Tue, 02 Mar 2021 19:45:47 +0100</pubDate>
+      
+      <guid>/pages/about/</guid>
+      <description>Welcome to my portfolio site   </description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/pages/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/cv/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrencies and Cryptography</title>
+      <link>/thoughts/crypto/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/crypto/</guid>
+      <description>Falling down the Bitcoin rabbit hole The end of my studies in &amp;ldquo;Management, Philosophy &amp;amp; Economics&amp;rdquo; coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about &amp;ldquo;Blockchain Technology&amp;rdquo;. After finishing my studies, I started at BTC-ECHO to write about developments in the space.
+Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/thoughts/git/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/git/</guid>
+      <description>Git is just one of these tools, that I cannot believe I could live without.
+First steps I had my first experience with Git, when I partnered up with an acquaintance for a project. In the beginning it was somewhat new of course, but the benefits of using a version control system like git quickly dawned on me.
+My amazement was even greater, when I found out that Linus Torvalds was not only responsible for the GNU/Linux Kernel, but also for git.</description>
+    </item>
+    
+    <item>
+      <title>My Portfolio Website</title>
+      <link>/projects/portfolio/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/portfolio/</guid>
+      <description>Check this website out on GitHub!
+ Working with Hugo through Doom Emacs and org-mode A big fascination of mine has always been hosting websites. Being in full control over a site on the internet allows communication with the entire globe. Therefore, I began learning about webhosting.
+Along my journey I discovered Hugo - a static site generator. Hugo uses markdown files to generate beautiful, lean webpages, which makes it ideal for blogs or a website like this.</description>
+    </item>
+    
+    <item>
+      <title>RaspberryPi and Networking</title>
+      <link>/thoughts/raspberrypi/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/raspberrypi/</guid>
+      <description>The first RaspberryPi I bought was for my own Bitcoin/Lightning-Network node (RaspiBlitz). Building this project was a great learning experience and it introduced me to the idea of self-hosted software services.
+Using the RaspberryPi One of the first real use-cases I found for a RaspberryPi was to host my Telegram Bots. Since they require the running computer to be always online. Therefore, my solution to hosting bots written in Python is to create a service on the Pi that executes the main script on start-up.</description>
+    </item>
+    
+    <item>
+      <title>Doom Emacs</title>
+      <link>/thoughts/doom/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/doom/</guid>
+      <description>IDEs I have used When I started to code with Python, my first IDE was PyCharm. In contrast to the clunky Java IDE I had tried to install early on when I tried to .#learn2code, PyCharm was easy to use and looked good, too!
+Nevertheless, I then switched to VSCodium (basically VSCode, minus the telemetry), because of recommendations from friends.
+Doom But then, in March of 2020, I was recommended Doom Emacs.</description>
+    </item>
+    
+    <item>
+      <title>GNU/Linux</title>
+      <link>/thoughts/linux/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/linux/</guid>
+      <description>First contact with Linux In my teens I once wanted to install Linux on my Windows Gaming machine. A friend of my father was a Linux user and had given me an installation CD. I installed it and found myself disappointed: The gaming support was very poor and since that was all I was interested in, I saw no point in using it.
+Rediscovering GNU/Linux But in 2019, driven by a desire to use open source software, I got interested in Linux again.</description>
+    </item>
+    
+    <item>
+      <title>.#learn2code</title>
+      <link>/thoughts/learn2code/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/learn2code/</guid>
+      <description>My HelloWorld Experience Growing up, I have always been interested in computers. My passion was mostly playing computer games. But as long as everything was working, I did not look under the hood.
+Java When I was 13 or so, my father gave a &amp;ldquo;Java 6 for Dummies&amp;rdquo; book to me. I tried the &amp;ldquo;Hello World&amp;rdquo;, but just the setup process of the IDE in Windows was too cumbersome for me.</description>
+    </item>
+    
+    <item>
+      <title>BeInCrypto Educational Telegram Bot</title>
+      <link>/projects/beincrypto/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/beincrypto/</guid>
+      <description>Check the code out on GitHub!
+ Using programming skills for real world value In the summer of 2020 I was working as an editor in chief for the German section of BeInCrypto. While the work as a journalist and editor was certainly interesting and rewarding, by that time the passion to code had me already. So I wanted to program something that would be useful to the business.</description>
+    </item>
+    
+    <item>
+      <title>LevelUp - Tracking progress</title>
+      <link>/projects/levelup/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/levelup/</guid>
+      <description>Check the code out on GitHub!
+ My first real programm When I worked through &amp;ldquo;Automate the Boring Stuff&amp;rdquo;, I wanted to keep track of my time invested in learning Python. So the idea for a timetracker with a command line interface was born.
+It was a great exercise, because my knowledge on the first version was very limited. I did not use a database, but instead an Excel-Sheet, where I would automate the input into the cells, and read the cells to calculate my total time invested.</description>
+    </item>
+    
+    <item>
+      <title>MoneroBlocksBot</title>
+      <link>/projects/moneroblocksbot/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/moneroblocksbot/</guid>
+      <description>Check the code out on GitHub!
+ Playing with APIs The purpose of this bot was for me to practice using public APIs. Allthewhile I also wanted to provide some value to Monero ethusiasts on Telegram.
+For this I used API provided by MoneroBlocks.info (nowadays LocalMonero.co). With the right parameters in the URL you get a json object with the appropriate information (i.e. Block Height, TXs in the last Block etc.</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/thoughts/python/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/thoughts/python/</guid>
+      <description>Falling in love with programming Python was the first computer language that I studied seriously. Over time I have fallen in love with the Zen of Python and learned a lot about broader principles of coding.
+The Zen of Python, by Tim Peters Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense.</description>
+    </item>
+    
+    <item>
+      <title>PythonScripts - Automate the boring stuff</title>
+      <link>/projects/pythonscripts/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/pythonscripts/</guid>
+      <description>Check the code out on GitHub!
+ Here I have 3 different Python scripts that automate certain aspects of my workflows.
+delete_txts.py When I coded my first lyrics grabber for iTunes, I had saved the lyrics for all songs in the album direcotry as a .txt.
+This was not necessary, but it didn&amp;rsquo;t bother me much at first. However, since my library contains around 7.000 songs, I also had 7.</description>
+    </item>
+    
+    <item>
+      <title>ReputationBot</title>
+      <link>/projects/reputationbot/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/reputationbot/</guid>
+      <description>Check the code out on GitHub!
+ My first real telegram bot Since I was an admin in a particular Telegram group, I wanted to use my programming knowledge to expand the utility of my group. Soon after, the idea for a Reddit-style voting bot for messages was born.
+Basically, users have voting power that gets reset every 24 hours. Up- or downvoting consumes voting power. Users collect repuation over time and can &amp;ldquo;win the week&amp;rdquo;, meaning that they are the user with the most upvotes in a given week.</description>
+    </item>
+    
+    <item>
+      <title>TipXMR</title>
+      <link>/projects/tipxmr/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/projects/tipxmr/</guid>
+      <description>Check the project out on GitHub!
+ TipXMR is by far the biggest and most complex project I have worked on so far. It all started small, in September of 2020 with the idea to support Monero donations in livestreams.
+  Monero is the biggest privacy focused cryptocurrency in the world and a favorite of mine. The goal was to empower streamers to be less dependant on centralized services like YouTube or Twitch and to expand the use-case for Monero.</description>
+    </item>
+    
+  </channel>
+</rss>
