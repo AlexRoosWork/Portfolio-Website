@@ -1,2 +1,8 @@
 #+TITLE: Alex Roos Portfolio Website
 
+** About
+Here you can find the source code for my portfolio website. I used the static site generator [[https://gohugo.io/][Hugo]] along with the [[https://themes.gohugo.io/hugo-theme-terminal/][Terminal theme]]. The source for the site is actually a single ~.org~ file that I wrote in [[https://github.com/hlissner/doom-emacs][Doom Emacs]]. The handy package [[https://ox-hugo.scripter.co/][ox-hugo]] allows me to export the ~.org~ file to markdwon along with attachments into the appropriate directories.
+
+I also made some minor adjustments to the Theme, like centering images or having a breakpoint for my cover image.
+
+The hosting is done on a VPS of mine, where I use [[https://nginx.org/en/][NGINX]] to route the requests into the ~public/~ directory of the Hugo site.
