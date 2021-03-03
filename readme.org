@@ -6,3 +6,6 @@ Here you can find the source code for my portfolio website. I used the static si
 I also made some minor adjustments to the Theme, like centering images or having a breakpoint for my cover image.
 
 The hosting is done on a VPS of mine, where I use [[https://nginx.org/en/][NGINX]] to route the requests into the ~public/~ directory of the Hugo site.
+
+** How I use the setup
+Here everything really comes together, the workflow is very fast to edit the site. For this I edit the ~.org~ file on my local machine and with the keychord ~SPC m e H A~ I export it directly into the VPS via [[https://www.emacswiki.org/emacs/TrampMode][Tramp]]. Afterwards I just need to ~ssh~ into the VPS, ~rm -rf public/~ and ~hugo~ and voilà, the changes are live.
