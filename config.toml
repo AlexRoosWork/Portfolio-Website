@@ -25,7 +25,7 @@ paginate = 5
   centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
-  favicon = "favicon.png"
+  favicon= "ox-hugo/portrait.jpg"
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
