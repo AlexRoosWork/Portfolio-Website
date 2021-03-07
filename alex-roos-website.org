@@ -1,7 +1,7 @@
 #+TITLE: Alex Roos Work Website
 #+STARTUP: content
-# #+HUGO_BASE_DIR: /sshx:tipxmr:/home/tipxmr/alex-roos/
-#+HUGO_BASE_DIR: /home/alex/Coding/alex-roos/
+#+HUGO_BASE_DIR: /sshx:vps-alex:/home/alex/websites/alex-roos/
+# #+HUGO_BASE_DIR: /home/alex/Coding/alex-roos/
 # #+HUGO_AUTO_SET_LASTMOD: t
 #+AUTHOR: Alex Roos
 
@@ -69,7 +69,7 @@ With this programm I did my first steps with the [[https://python-telegram-bot.r
 Once I had gotten the hang of programming a Telegram bot with the [[ReputationBot]], I wanted to use this knowledge for something else.
 
 *** Playing with APIs
-The purpose of this bot was for me to practice using public APIs. Since I am passionate about [[Cryptocurrencies and Cryptography]] I had the idea of creating a simple block explorer. One of my favorite coins is [[https://getmonero.org][Monero]] and so I started to dig. By far the simplest way of getting information on the Monero blockchain was [[https://localmonero.co/blocks/api][MoneroBlocks.info]] (nowadays LocalMonero.co).
+The purpose of this bot was for me to practice using public APIs. Since I am passionate about cryptocurrencies I had the idea of creating a simple block explorer. One of my favorite coins is [[https://getmonero.org][Monero]] and so I started to dig. By far the simplest way of getting information on the Monero blockchain was [[https://localmonero.co/blocks/api][MoneroBlocks.info]] (nowadays LocalMonero.co).
 
 The API could be queried with URL parameters. The result was a ~json~ formatted object. So, with the ~requests~ module in Python, I constructed the requests, read the information of the result and returned it to the user. The rest was simply tying Telegram commands to the appropriate functions.
 
