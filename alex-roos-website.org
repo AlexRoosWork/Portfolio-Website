@@ -9,153 +9,48 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: projects
 :END:
-** DONE LevelUp - Tracking progress
-:PROPERTIES:
-:EXPORT_FILE_NAME: LevelUp
-:EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_TAGS: python sql sqlalchemy
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
-:END:
-> [[https://github.com/AlexRoosWork/LevelUp][Check the code out on GitHub!]]
-
-
-*** My first real programm
-When I worked through "Automate the Boring Stuff", I wanted to keep track of my time invested in learning Python. So the idea for a timetracker with a command line interface was born.
-
-It was a great exercise, because my knowledge on the first version was very limited. I did not use a database, but instead an Excel-Sheet, where I would automate the input into the cells, and read the cells to calculate my total time invested.
-
-file:~/Coding/alex-roos/static/ox-hugo/level-summary.png
-
-*** Making improvments
-As I progressed with learning the language and some modules, I revisited the application.
-
-For instance, I used [[https://pypi.org/project/inquirer/][Inquirer]] for a neater menu structure in the command line.
-
-However, the biggest improvement was certainly the switch from Excel to a SQL Database. Soon after I dropped the plain SQL and started to use the SQLWrapper [[https://pypi.org/project/inquirer/][SQLAlchemy]]. This way the program is now database agnostic.
-
-I also played around with [[https://matplotlib.org/][MatPlotLib]] to visualize progess over time in various views (last week, last month, all time etc.)
-
-file:~/Coding/alex-roos/static/ox-hugo/matplotlib.png
-*** Summary
-While I don't use this programm anymore to track my invested hours, I still like it a lot. Not because of the functionality it provides now, but because of the lessons it taught me along the way.
-
-I believe I had over 400 hours in Python when I quit using it.
-
-** DONE ReputationBot
-:PROPERTIES:
-:EXPORT_FILE_NAME: ReputationBot
-:EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_TAGS: python sql telegram sqlalchemy
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
-:END:
-> [[https://github.com/AlexRoosWork/reputation-bot][Check the code out on GitHub!]]
-*** My first real telegram bot
-Since I was an admin in a particular Telegram group, I wanted to use my programming knowledge to expand the utility of my group. Soon after, the idea for a Reddit-style voting bot for messages was born.
-
-Basically, users have voting power that gets reset every 24 hours. Up- or downvoting consumes voting power. Users collect repuation over time and can "win the week", meaning that they are the user with the most upvotes in a given week. For every week championship a trophy emoji 🏆 is added to their reputation.
-
-There are a couple more mechanisms, like leveling up. However, the goal was to incentivise the group members to post high quality content.
-*** Tying it all together
-With this programm I did my first steps with the [[https://python-telegram-bot.readthedocs.io/en/stable/][python-telegram-bot]] module. I experienced a steep learning curve and was also able to use my knowledge of SQLAlchemy to administer the database.
-** DONE MoneroBlocksBot
-:PROPERTIES:
-:EXPORT_FILE_NAME: MoneroBlocksBot
-:EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_TAGS: python crypto telegram
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-05
-:END:
-> [[https://github.com/AlexRoosWork/MoneroBlocksBot][Check the code out on GitHub!]]
-
-Once I had gotten the hang of programming a Telegram bot with the [[ReputationBot]], I wanted to use this knowledge for something else.
-
-*** Playing with APIs
-The purpose of this bot was for me to practice using public APIs. Since I am passionate about cryptocurrencies I had the idea of creating a simple block explorer. One of my favorite coins is [[https://getmonero.org][Monero]] and so I started to dig. By far the simplest way of getting information on the Monero blockchain was [[https://localmonero.co/blocks/api][MoneroBlocks.info]] (nowadays LocalMonero.co).
-
-The API could be queried with URL parameters. The result was a ~json~ formatted object. So, with the ~requests~ module in Python, I constructed the requests, read the information of the result and returned it to the user. The rest was simply tying Telegram commands to the appropriate functions.
-
-While the bot is not a detailed block explorer to look up individual transactions, it still provides broad information, such as the current block height, the number of transactions in the last block, etc.
-
-** DONE BeInCrypto Educational Telegram Bot
-:PROPERTIES:
-:EXPORT_FILE_NAME: BeInCrypto
-:EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_TAGS: telegram python
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
-:END:
-> [[https://github.com/AlexRoosWork/BeInCrypto-Telegram-Education][Check the code out on GitHub!]]
-
-*** Using programming skills for real world value
-In the summer of 2020 I was working as an editor in chief for the German section of [[https://beincrypto.com/][BeInCrypto]]. While the work as a journalist and editor was certainly interesting and rewarding, by that time the passion to code had me already. So I wanted to program something that would be useful to the business.
-
-As we grew our community, we started a Telegram group to onboard new users into Crypto. Since one of my responsibilities was to produce evergreen content and new crypto users usually start the same questions, my idea was to have a bot in our Telegram group that would give users a menu for all the evergreen articles we had to offer.
-
-*** Struggles when programming the bot
-The actual code was easy to write. It was not my first Telegram Bot, and by then I had a pretty good graps on the [[https://python-telegram-bot.org/][python-telegram-bot]] module. However, my design was not the best, since it required hard coding of evergreen articles in the actual code.
-
-With today's knowledge I would probably try to fetch the articles directly from the website. This way the code remains untouched, when new articles are released.
-** DONE PythonScripts - Automate the boring stuff
-:PROPERTIES:
-:EXPORT_FILE_NAME: PythonScripts
-:EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_TAGS: python linux
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
-:END:
-> [[https://github.com/AlexRoosWork/PythonScripts][Check the code out on GitHub!]]
-
-Here I have 3 different Python scripts that automate certain aspects of my workflows.
-
-*** delete_txts.py
-When I coded my first lyrics grabber for iTunes, I had saved the lyrics for all songs in the album direcotry as a ~.txt~.
-
-This was not necessary, but it didn't bother me much at first. However, since my library contains around 7.000 songs, I also had 7.000 ~.txt~ files just lying dead, nested in the library directory. When copying/backing up this folder, the number of files slowed down the process considerably.
-
-Instead of deleting all ~.txt~ files manually, I wanted to automate that boring stuff.
-
-This was a good exercise to get more familiar with the [[https://docs.python.org/3/library/os.html][os module]] in Python, especially the ~os.walk()~ function.
-*** filesorter.py
-Another usecase that cried to be automated was sorting through an older directory. Sometimes I just dump files in a directory so not to delete them. But this bad habit accumulates a lot of unsorted files over time.
-
-So this ~filesorter~ goes through any given directory, scans all files, creates directories for every extension and moves the files into the appropriate directory.
-
-A great way to clean the ~Downloads/~ directory!
-*** pdfsorter.py
-Another way to get my stuff in order. This script asks for a directory, then gets all the ~.pdf~ files and opens them one by one. The purpose is to give meaningful names to the pdf and then move it to a directory named after the year the ~.pdf~ was created.
-
-This way I organise my documents and have everything named appropriately, when I do my taxes.
-*** Summary
-Writing scripts like these make feels really rewarding. I am able to automate my operating system and create my own custom workflows. During my use I came to discover [[https://github.com/CITGuru/PyInquirer#installation][PyInquirer]] to create beautiful menus in the command line interface.
-
-Another perk is that it takes me very little time to write these scripts now, since I am more familiar with the ~os~ module.
 ** DONE TipXMR
 :PROPERTIES:
 :EXPORT_FILE_NAME: TipXMR
 :EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_TAGS: javascript typescript react crypto
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
+:EXPORT_HUGO_TAGS: javascript typescript react crypto antd
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-25
 :END:
 > [[https://github.com/hundehausen/tipxmr][Check the project out on GitHub!]]
 
-TipXMR is by far the biggest and most complex project I have worked on so far. It all started small, in September of 2020 with the idea to support [[https://www.getmonero.org/][Monero]] donations in livestreams.
+TipXMR is by far the biggest and most complex project I have worked on so far.
 
-file:~/Coding/alex-roos/static/ox-hugo/tipxmr.png
+It all started small, in September of 2020 with the idea to support [[https://www.getmonero.org/][Monero]] donations in livestreams.
 
-Monero is the biggest privacy focused cryptocurrency in the world and a favorite of mine. The goal was to empower streamers to be less dependant on centralized services like YouTube or Twitch and to expand the use-case for Monero. TipXMR is a non-custodial online service, that uses the Monero Web Assembly Wallet, to provide the user a full-feature crypto wallet in their browser.
+file:/ox-hugo/tipxmr.png
 
-*** Growing complexity
-Just recently before I started on TipXMR with [[https://github.com/hundehausen][@hundehausen]], I had began with JavaScript and React. Therefore the beginning was quite challenging in setting up webpack and other configurations. Fortunately we had help by a professional software engineer.
+*** What is Monero?
+Monero is the biggest privacy focused cryptocurrency in the world and a favorite of mine. The goal is:
+1. to empower streamers to be more independant on centralized services like YouTube or Twitch
+2. and to expand the use-case for Monero.
 
-Over the months, the deeper we got into it, the complexer the program got. Especially once we discovered what kind of data we wanted to store and how.
+TipXMR is a non-custodial online service, that uses the WebAssembly wallet from [[https://github.com/monero-ecosystem/monero-javascript][monero javascript]], to provide the user a full-feature crypto wallet in their browser.
 
-Along the way, we also did a [[https://ccs.getmonero.org/proposals/tipxmr.live.html][crowdfunding campaign]] and collected 72 XMR (about 13,5k EUR).
+*** Combating growing complexity
+Just recently before I started on TipXMR with [[https://github.com/hundehausen][@hundehausen]], I had began learning JavaScript and React. Therefore the beginning was quite challenging in setting up webpack and other configurations. Fortunately, we had help by a professional software engineer.
 
-Recently, we switched out the tech stack to include TypeScript, Redux, Ant Design and PostgreSQL, as you can [[https://tipxmr.live/posts/changing-the-tech-stack/][read here]].
+Along the way, we also did a [[https://ccs.getmonero.org/proposals/tipxmr.live.html][crowdfunding campaign]] and raised 72 XMR (about 13,5k EUR).
 
-What truly astonishes me is the possibilites for modern web developer. While standing on the shoulders of giants, we can create innovative applications that empower users!
+At a certain point the project had grown in size and complexity, and we needed a more professional approach to the development process. Hundehausen had just started as a junior developer and was able to implement much of the agile project management style in TipXMR.
+
+We now have a standardized way of writing feature branches and merging them into the development process after a review. I really enjoy working in such an organized manner. The switch to an agile coding process has also taught me a lot about [[Git]] and the power of [[Doom Emacs]].
+
+*** Ants in the frontend
+In the beginning of 2021, we switched out the tech stack to accomodate the growing project.
+
+For instance, TypeScript instead of JavaScript now provides us with warnings directly in the IDE, which makes writing code more effective. Instead of the newer state management tool [[https://recoiljs.org/][Recoil]], we opted for the more battle-tested [[https://redux.js.org/][Redux]] library. A detailed blog entry can be found on the TipXMR [[https://tipxmr.live/posts/changing-the-tech-stack/][blog]]
+
+The changes also brought with them a new frontend library: We switched [[https://tailwindcss.com/][TailwindCSS]] for [[https://ant.design/][ant.desgin]]. Since much of the actual frontend design is my responsiblity, I really dug into the antd based coding style. While I can still appreciate the customizability from Tailwind, antd just amazes me with the speed one can design beautiful websites with it. The whole coding process has taught me a lot about JSX, React and antd already and I am learning more every day.
 
 *** This is what I want to do!
 My experience with TipXMR has shown me clearly: *Coding is the profession for me*. I especially enjoyed working in a team with more advanced developers. It is a stark contrast to my early days of a lone keyboard warrior and I noticed that I learn much faster, when I am thrown in the water.
 
-I have learned so much about JavaScript, React, Hooks, Statemanagement, structuring data, interaction with databases and many other small things. Moreover, we also implemented a professional workflow with ~git~ and ~jira~ (canban style board). This way TipXMR is training me to be a good team developer, who is comfortable with version control.
+I have learned so much about JavaScript, React, Hooks, state-management, structuring data, interaction with databases and many other small things. Moreover, we also implemented a professional workflow with ~git~ and ~jira~ (canban style board). This way TipXMR is training me to be a good team developer, who is comfortable with version control.
 
 TipXMR is still not finished, but we aim to complete it within 2021.
 ** DONE My Portfolio Website
@@ -163,7 +58,7 @@ TipXMR is still not finished, but we aim to complete it within 2021.
 :EXPORT_FILE_NAME: Portfolio
 :EXPORT_HUGO_SECTION: projects
 :EXPORT_HUGO_TAGS: emacs web
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-10
 :END:
 > [[https://github.com/AlexRoosWork/Portfolio-Website][Check this website out on GitHub!]]
 
@@ -200,13 +95,130 @@ The ~alex-roos-website.org~ file provides basically all the content on the websi
 
 Since the site is fairly light-weight I wrote some CSS inline. I know this is not something to do, but for my purposes here, it did the trick.
 
-Nevertheless, I still need a custom ~/static/style.css~ sheet, to add a breakpoint on my portrait for small devices and to center the images in articles.
+Nevertheless, I still need a custom ~/style.css~ sheet, to add a breakpoint on my portrait for small devices and to center the images in articles.
 *** Updating the website
 To update the website I use the ~SPC m e H A~ key chord in org-mode. This exports my file directly to my VPS. From there I simply ~ssh~ into the VPS, ~rm -rf public/~ and ~hugo~ to generate the new site based on the new markdown files. ~hugo~ generates the ~public/~ folder that [[https://nginx.org/en/][NGINX]] routes any requests to.
 
 This ox-hugo export means I do not have to worry about image files being in the wrong location. It also generates the folder structure to bundle articles like [[Thoughts]] and [[Projects]].
 
 Anyway, I'm a big fan.
+** DONE PythonScripts - Automate the boring stuff
+:PROPERTIES:
+:EXPORT_FILE_NAME: PythonScripts
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_TAGS: python linux
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-09
+:END:
+> [[https://github.com/AlexRoosWork/PythonScripts][Check the code out on GitHub!]]
+
+Here I have 3 different Python scripts that automate certain aspects of my workflows.
+
+*** delete_txts.py
+When I coded my first lyrics grabber for iTunes, I had saved the lyrics for all songs in the album direcotry as a ~.txt~.
+
+This was not necessary, but it didn't bother me much at first. However, since my library contains around 7.000 songs, I also had 7.000 ~.txt~ files just lying dead, nested in the library directory. When copying/backing up this folder, the number of files slowed down the process considerably.
+
+Instead of deleting all ~.txt~ files manually, I wanted to automate that boring stuff.
+
+This was a good exercise to get more familiar with the [[https://docs.python.org/3/library/os.html][os module]] in Python, especially the ~os.walk()~ function.
+*** filesorter.py
+Another usecase that cried to be automated was sorting through an older directory. Sometimes I just dump files in a directory so not to delete them. But this bad habit accumulates a lot of unsorted files over time.
+
+So this ~filesorter~ goes through any given directory, scans all files, creates directories for every extension and moves the files into the appropriate directory.
+
+A great way to clean the ~Downloads/~ directory!
+*** pdfsorter.py
+Another way to get my stuff in order. This script asks for a directory, then gets all the ~.pdf~ files and opens them one by one. The purpose is to give meaningful names to the pdf and then move it to a directory named after the year the ~.pdf~ was created.
+
+This way I organise my documents and have everything named appropriately, when I do my taxes.
+*** Summary
+Writing scripts like these make feels really rewarding. I am able to automate my operating system and create my own custom workflows. During my use I came to discover [[https://github.com/CITGuru/PyInquirer#installation][PyInquirer]] to create beautiful menus in the command line interface.
+
+Another perk is that it takes me very little time to write these scripts now, since I am more familiar with the ~os~ module.
+** DONE ReputationBot
+:PROPERTIES:
+:EXPORT_FILE_NAME: ReputationBot
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_TAGS: python sql telegram sqlalchemy
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-08
+:END:
+> [[https://github.com/AlexRoosWork/reputation-bot][Check the code out on GitHub!]]
+*** My first real telegram bot
+Since I was an admin in a particular Telegram group, I wanted to use my programming knowledge to expand the utility of my group. Soon after, the idea for a Reddit-style voting bot for messages was born.
+
+Basically, users have voting power that gets reset every 24 hours. Up- or downvoting consumes voting power. Users collect repuation over time and can "win the week", meaning that they are the user with the most upvotes in a given week. For every week championship a trophy emoji 🏆 is added to their reputation.
+
+There are a couple more mechanisms, like leveling up. However, the goal was to incentivise the group members to post high quality content.
+*** Tying it all together
+With this programm I did my first steps with the [[https://python-telegram-bot.readthedocs.io/en/stable/][python-telegram-bot]] module. I experienced a steep learning curve and was also able to use my knowledge of SQLAlchemy to administer the database.
+** DONE LevelUp - Tracking progress
+:PROPERTIES:
+:EXPORT_FILE_NAME: LevelUp
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_TAGS: python sql sqlalchemy
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-07
+:END:
+> [[https://github.com/AlexRoosWork/LevelUp][Check the code out on GitHub!]]
+
+
+*** My first real programm
+When I worked through "Automate the Boring Stuff", I wanted to keep track of my time invested in learning Python. So the idea for a timetracker with a command line interface was born.
+
+It was a great exercise, because my knowledge on the first version was very limited. I did not use a database, but instead an Excel-Sheet, where I would automate the input into the cells, and read the cells to calculate my total time invested.
+
+file:/ox-hugo/level-summary.png
+
+*** Making improvments
+As I progressed with learning the language and some modules, I revisited the application.
+
+For instance, I used [[https://pypi.org/project/inquirer/][Inquirer]] for a neater menu structure in the command line.
+
+However, the biggest improvement was certainly the switch from Excel to a SQL Database. Soon after I dropped the plain SQL and started to use the SQLWrapper [[https://pypi.org/project/inquirer/][SQLAlchemy]]. This way the program is now database agnostic.
+
+I also played around with [[https://matplotlib.org/][MatPlotLib]] to visualize progess over time in various views (last week, last month, all time etc.)
+
+file:/ox-hugo/matplotlib.png
+*** Summary
+While I don't use this programm anymore to track my invested hours, I still like it a lot. Not because of the functionality it provides now, but because of the lessons it taught me along the way.
+
+I believe I had over 400 hours in Python when I quit using it.
+
+** DONE BeInCrypto Educational Telegram Bot
+:PROPERTIES:
+:EXPORT_FILE_NAME: BeInCrypto
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_TAGS: telegram python
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-06
+:END:
+> [[https://github.com/AlexRoosWork/BeInCrypto-Telegram-Education][Check the code out on GitHub!]]
+
+*** Using programming skills for real world value
+In the summer of 2020 I was working as an editor in chief for the German section of [[https://beincrypto.com/][BeInCrypto]]. While the work as a journalist and editor was certainly interesting and rewarding, by that time the passion to code had me already. So I wanted to program something that would be useful to the business.
+
+As we grew our community, we started a Telegram group to onboard new users into Crypto. Since one of my responsibilities was to produce evergreen content and new crypto users usually start the same questions, my idea was to have a bot in our Telegram group that would give users a menu for all the evergreen articles we had to offer.
+
+*** Struggles when programming the bot
+The actual code was easy to write. It was not my first Telegram Bot, and by then I had a pretty good graps on the [[https://python-telegram-bot.org/][python-telegram-bot]] module. However, my design was not the best, since it required hard coding of evergreen articles in the actual code.
+
+With today's knowledge I would probably try to fetch the articles directly from the website. This way the code remains untouched, when new articles are released.
+** DONE MoneroBlocksBot
+:PROPERTIES:
+:EXPORT_FILE_NAME: MoneroBlocksBot
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_TAGS: python crypto telegram
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-05
+:END:
+> [[https://github.com/AlexRoosWork/MoneroBlocksBot][Check the code out on GitHub!]]
+
+Once I had gotten the hang of programming a Telegram bot with the [[ReputationBot]], I wanted to use this knowledge for something else.
+
+*** Playing with APIs
+The purpose of this bot was for me to practice using public APIs. Since I am passionate about cryptocurrencies I had the idea of creating a simple block explorer. One of my favorite coins is [[https://getmonero.org][Monero]] and so I started to dig. By far the simplest way of getting information on the Monero blockchain was [[https://localmonero.co/blocks/api][MoneroBlocks.info]] (nowadays LocalMonero.co).
+
+The API could be queried with URL parameters. The result was a ~json~ formatted object. So, with the ~requests~ module in Python, I constructed the requests, read the information of the result and returned it to the user. The rest was simply tying Telegram commands to the appropriate functions.
+
+While the bot is not a detailed block explorer to look up individual transactions, it still provides broad information, such as the current block height, the number of transactions in the last block, etc.
+
 * Thoughts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: thoughts
@@ -216,7 +228,7 @@ Anyway, I'm a big fan.
 :EXPORT_FILE_NAME: learn2code
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: python linux
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-10
 :END:
 *** My HelloWorld Experience
 Growing up, I have always been interested in computers. My passion was mostly playing computer games. But as long as everything was working, I did not look under the hood.
@@ -243,17 +255,36 @@ Soon after - towards the end of 2019 - I ditched my MacBook Pro for a [[GNU/Linu
 
 A big step was working through the book "[[https://automatetheboringstuff.com/][Automate the Boring Stuff]]", since it provided an immediate use-case for my everyday life.
 
-file:~/Coding/alex-roos/static/automate.jpg
+file:/automate.jpg
 *** What has kept me going
 As any programmer may attest to: there are moments, where the program just won't work. Hours upon hours are spent looking through StackOverflow, until suddenly: *it works*. This feeling of overcoming the struggle, and making something work has kept me hooked on writing code.
 
 Another big plus is the utility, which can be created. It's not only fun coding, you actually get something back from it.
+** DONE Git
+:PROPERTIES:
+:EXPORT_FILE_NAME: git
+:EXPORT_HUGO_SECTION: thoughts
+:EXPORT_HUGO_TAGS: opensource framework
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-09
+:END:
+Git is just one of these tools, that I cannot believe I could live without.
+
+*** First steps
+I had my first experience with Git, when I partnered up with an acquaintance for a project. In the beginning it was somewhat new of course, but the benefits of using a version control system like git quickly dawned on me.
+
+My amazement was even greater, when I found out that Linus Torvalds was not only responsible for the [[GNU/Linux]] Kernel, but also for git. This discovery solidified once more my passion for FLOSS.
+*** The role git plays for me
+I understand, why git takes a central role in software projects. For me personally, the use-cases are vast. Not only do we use git to work on [[TipXMR]], but I also backup my dotfiles on it or to create a [[https://github.com/AlexRoosWork][project portfolio]].
+
+There is even a way to host this website with Hugo over Git!
+*** Magit
+Of course, [[Doom Emacs]] has to be mentioned once more. Within Emacs, the tool Magit provides powerful features to interact with repositories. It is also the tool I use to make changes to the [[https://github.com/AlexRoosWork/Portfolio-Website][repo of this very website]].
 ** DONE Python
 :PROPERTIES:
 :EXPORT_FILE_NAME: python
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: opensource python
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-08
 :END:
 *** Falling in love with programming
 Python was the first computer language that I studied seriously. Over time I have fallen in love with the Zen of Python and learned a lot about broader principles of coding.
@@ -296,7 +327,7 @@ Nowadays, Python is my most comfortable language. As I mentioned, its functional
 Since qtile is written in Python the configuration is also a ~.py~ file. This means that I can write my own functions to feed the top bar widgets.
 
 
-[[file:~/Coding/alex-roos/static/ox-hugo/topbar-qtile.png]]
+[[file:/ox-hugo/topbar-qtile.png]]
 
 For instance, the price of Monero and Bitcoin widgets I made myself. They are simply API calls to [[https://api.coinpaprika.com/#operation/getTickers][Coinpaprika]] packaged in a qtile widget.
 
@@ -332,12 +363,32 @@ def get_xmr_btc():
 #+end_src
 
 This is just one example of the many benefits, I draw from Python in my own environment.
+** DONE Cryptocurrencies and Cryptography
+:PROPERTIES:
+:EXPORT_FILE_NAME: crypto
+:EXPORT_HUGO_SECTION: thoughts
+:EXPORT_HUGO_TAGS: opensource crypto
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-05
+:END:
+*** Falling down the Bitcoin rabbit hole
+The end of my studies in /"Management, Philosophy & Economics"/ coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about "Blockchain Technology". After finishing my studies, I started at BTC-ECHO to write about developments in the space.
+
+Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking. Gradually my interested shifted from the economic implications to the actual technology itself.
+
+To understand Bitcoin, I needed to know what a hash is, how a blockchain uses these hashes for a Proof-of-Work and so on. This is what basically got me interested in computer sciences again.
+*** Cryptography is all around us
+The aquired knowledge proofs useful to this day. I was amazed to learn that asymmetric cryptography is all around us, from the websites to the messengers. Everything that needs security, benefits from public key cryptography.
+
+While I certainly don't understand the cryptography itself, I can still utilise it. Just imagine my amazement, when I figured out how to use the ~.ssh/~ to automatically - and more securely - establish a contection to remote machines.
+
+*** Cryptocurrencies are the future
+My fascination with cryptocurrencies has not waned. I find it especially thrilling to create programs that interact with cryptocurrencies in some way, like [[MoneroBlocksBot]] or [[TipXMR]].
 ** DONE GNU/Linux
 :PROPERTIES:
 :EXPORT_FILE_NAME: linux
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: opensource linux
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-02
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-04
 :END:
 *** First contact with Linux
 In my teens I once wanted to install Linux on my Windows Gaming machine. A friend of my father was a Linux user and had given me an installation CD. I installed it and found myself disappointed: The gaming support was very poor and since that was all I was interested in, I saw no point in using it.
@@ -356,7 +407,7 @@ I installed and tried various flavors, like Mint and Kubuntu, but eventually mad
 
 At the time of writing, I use [[https://manjaro.org/][Manjaro]] with a combination of KDE as the desktop manager and qtile as a window manager.
 
-[[file:~/Coding/alex-roos/static/ox-hugo/fetch.png]]
+[[file:/ox-hugo/fetch.png]]
 
 *** The little things...
 What I absolutely love about my setup is that I can customize it however I want. While it is time consuming and sometimes frustrating, I find that in the end I get rewarded not only by a feeling of accomplishment, but also by a sleek and well-fitted computing experience.
@@ -372,7 +423,7 @@ I truly believe that FLOSS can lead to a more free and just world.
 :EXPORT_FILE_NAME: doom
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: opensource emacs
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-02
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
 :END:
 *** IDEs I have used
 When I started to code with [[Python]], my first IDE was [[https://www.jetbrains.com/pycharm/][PyCharm]]. In contrast to the clunky Java IDE I had tried to install early on when I tried to [[.#learn2code]], PyCharm was easy to use and looked good, too!
@@ -381,7 +432,7 @@ Nevertheless, I then switched to [[https://vscodium.com/][VSCodium]] (basically 
 *** Doom
 But then, in March of 2020, I was recommended [[https://github.com/hlissner/doom-emacs][Doom Emacs]]. This lead me down the Emacs rabbit hole: learning all the different key chords, tools, workflows and even a little elisp.
 
-file:~/Coding/alex-roos/static/ox-hugo/doom.png
+file:/ox-hugo/doom.png
 
 Doom takes a central place in my personal setup now and I use it for all kinds of purposes:
 - [[https://orgmode.org/][org-mode]] to organise thoughts and write blogs such as this.
@@ -390,51 +441,12 @@ Doom takes a central place in my personal setup now and I use it for all kinds o
 - [[https://www.emacswiki.org/emacs/DiredMode][dired]] to manage files
 - the different language modes as my IDE (mostly Python, JavaScript and HTML)
 
-** DONE Git
-:PROPERTIES:
-:EXPORT_FILE_NAME: git
-:EXPORT_HUGO_SECTION: thoughts
-:EXPORT_HUGO_TAGS: opensource framework
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
-:END:
-Git is just one of these tools, that I cannot believe I could live without.
-
-*** First steps
-I had my first experience with Git, when I partnered up with an acquaintance for a project. In the beginning it was somewhat new of course, but the benefits of using a version control system like git quickly dawned on me.
-
-My amazement was even greater, when I found out that Linus Torvalds was not only responsible for the [[GNU/Linux]] Kernel, but also for git. This discovery solidified once more my passion for FLOSS.
-*** The role git plays for me
-I understand, why git takes a central role in software projects. For me personally, the use-cases are vast. Not only do we use git to work on [[TipXMR]], but I also backup my dotfiles on it or to create a [[https://github.com/AlexRoosWork][project portfolio]].
-
-There is even a way to host this website with Hugo over Git!
-*** Magit
-Of course, [[Doom Emacs]] has to be mentioned once more. Within Emacs, the tool Magit provides powerful features to interact with repositories. It is also the tool I use to make changes to the [[https://github.com/AlexRoosWork/Portfolio-Website][repo of this very website]].
-** DONE Cryptocurrencies and Cryptography
-:PROPERTIES:
-:EXPORT_FILE_NAME: crypto
-:EXPORT_HUGO_SECTION: thoughts
-:EXPORT_HUGO_TAGS: opensource crypto
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
-:END:
-*** Falling down the Bitcoin rabbit hole
-The end of my studies in /"Management, Philosophy & Economics"/ coincided with a peaked interest in Bitcoin near the end of 2016. So, for the topic of my thesis I chose to write about "Blockchain Technology". After finishing my studies, I started at BTC-ECHO to write about developments in the space.
-
-Researching the articles I had to write, I learned much about cryptography, PGP, and adverserial thinking. Gradually my interested shifted from the economic implications to the actual technology itself.
-
-To understand Bitcoin, I needed to know what a hash is, how a blockchain uses these hashes for a Proof-of-Work and so on. This is what basically got me interested in computer sciences again.
-*** Cryptography is all around us
-The aquired knowledge proofs useful to this day. I was amazed to learn that asymmetric cryptography is all around us, from the websites to the messengers. Everything that needs security, benefits from public key cryptography.
-
-While I certainly don't understand the cryptography itself, I can still utilise it. Just imagine my amazement, when I figured out how to use the ~.ssh/~ to automatically - and more securely - establish a contection to remote machines.
-
-*** Cryptocurrencies are the future
-My fascination with cryptocurrencies has not waned. I find it especially thrilling to create programs that interact with cryptocurrencies in some way, like [[MoneroBlocksBot]] or [[TipXMR]].
 ** DONE RaspberryPi and Networking
 :PROPERTIES:
 :EXPORT_FILE_NAME: RaspberryPi
 :EXPORT_HUGO_SECTION: thoughts
 :EXPORT_HUGO_TAGS: linux network docker
-:EXPORT_HUGO_PUBLISHDATE: 2021-03-03
+:EXPORT_HUGO_PUBLISHDATE: 2021-03-01
 :END:
 The first RaspberryPi I bought was for my own Bitcoin/Lightning-Network node ([[https://raspiblitz.org/][RaspiBlitz]]). Building this project was a great learning experience and it introduced me to the idea of self-hosted software services.
 *** Using the RaspberryPi
@@ -466,4 +478,4 @@ It truly amazes me that this tech exists at such a low price point!
 :EXPORT_HUGO_MENU: :menu nil
 :END:
 
-[[file:~/Coding/alex-roos/static/ox-hugo/CV.jpg]]
+[[file:/ox-hugo/CV.jpg]]
